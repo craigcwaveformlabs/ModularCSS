@@ -5,3 +5,7 @@
 .site-logo {
   margin-bottom: 2em;
 }
+
+.btn{
+  @include bg-colors($ui-colors);
+}

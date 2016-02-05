@@ -16,3 +16,14 @@
   }
 
 // Mixins
+
+@mixin bg-colors($map) {
+
+  // create class for each color in colours sass map
+  @each $theme, $color in $map {
+    &--#{$theme} {
+      background-color: $color;
+    }
+  }
+
+}

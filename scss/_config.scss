@@ -35,6 +35,17 @@ $color-secondary  : $color--scooter;
 $color-accent     : $color--emerald;
 $color-shadow     : rbga($color--black, 0.2);
 
+
+// UI Colors - using Sass Maps
+$ui-colors: (
+  default : $color--fountain,
+  success : $color--emerald,
+  error   : $color--sunglo,
+  warning : $color--coral,
+  info    : $color--majesty
+);
+
+
 // Text
 
 $base__font-size  : 16px;
