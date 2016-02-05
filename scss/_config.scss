@@ -3,8 +3,7 @@
 // ==========================================================================
 
 // Font Stacks
-$font-url--google        : 'http://font.googleapis.com/css?family=Lato:100,300,400,700,900';
-
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 $font-family--primary    : 'Lato', 'Helevetica Neue', Helevetica, Arial, sans-serif;
 $font-family--secondary  : 'Helevetica Neue', Helevetica, Arial, sans-serif;
 
@@ -71,3 +70,8 @@ $ui-colors: (
 
 $base__font-size  : 16px;
 $base__line       : 24px;
+
+
+// Path to Assets
+
+$path--rel    : "../img";
