@@ -24,6 +24,7 @@ h1 {
 	font-size: em(42px);
 	line-height: (46px / 42px);
 	margin-bottom: em(70px, 42px);
+	color: palette(pal--grey, x-dark);
 
 }
 
@@ -31,4 +32,5 @@ h2 {
   font-family: $font-family--secondary;
   font-weight: $font-weight--thin;
 	font-size: em(24px);
+	color: palette(pal--grey, light);
 }

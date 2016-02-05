@@ -17,33 +17,54 @@ $font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
 
-$color--white     : #fff;
-$color--black     : #0b0b0b;
-$color--grey      : #797e83;
+$base--white     : #fff;
+$base--black     : #0b0b0b;
+$base--grey      : #797e83;
 
-$color--fountain  : #52bab3;
-$color--emerald   : #5ece7f;
-$color--sunglo    : #e67478;
-$color--coral     : #ff784f;
-$color--majesty   : #9279c3;
-$color--scooter   : #39add1;
+$base--fountain  : #52bab3;
+$base--emerald   : #5ece7f;
+$base--sunglo    : #e67478;
+$base--coral     : #ff784f;
+$base--majesty   : #9279c3;
+$base--scooter   : #39add1;
 
 // Color Usage
 
-$color-primary    : $color--fountain;
-$color-secondary  : $color--scooter;
-$color-accent     : $color--emerald;
-$color-shadow     : rbga($color--black, 0.2);
+$color-primary    : $base--fountain;
+$color-secondary  : $base--scooter;
+$color-accent     : $base--emerald;
+$color-shadow     : rbga($base--black, 0.2);
+
+// Color Palette modifiers
+$palettes: (
+
+  pal--grey: (
+    xx-light  : lighten($base--grey, 43%),
+    x-light   : lighten($base--grey, 35%),
+    light     : lighten($base--grey, 12%),
+    base      : $base--grey,
+    dark      : darken($base--grey, 8%),
+    x-dark    : darken($base--grey, 16%)
+  ),
+
+  pal--black: (
+    light     : lighten($base--black, 10%),
+    base      : $base--black,
+    dark      : darken($base--black, 10%)
+  )
+
+);
 
 
 // UI Colors - using Sass Maps
 $ui-colors: (
-  default : $color--fountain,
-  success : $color--emerald,
-  error   : $color--sunglo,
-  warning : $color--coral,
-  info    : $color--majesty
+  default : $base--fountain,
+  success : $base--emerald,
+  error   : $base--sunglo,
+  warning : $base--coral,
+  info    : $base--majesty
 );
+
 
 
 // Text
