@@ -3,14 +3,39 @@
 // ==========================================================================
 
 // Font Stacks
+$font-url--google        : 'http://font.googleapis.com/css?family=Lato:100,300,400,700,900';
 
+$font-family--primary    : 'Lato', 'Helevetica Neue', Helevetica, Arial, sans-serif;
+$font-family--secondary  : 'Helevetica Neue', Helevetica, Arial, sans-serif;
 
 // Font Weights
-
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
 
+$color--white     : #fff;
+$color--black     : #0b0b0b;
+$color--grey      : #797e83;
+
+$color--fountain  : #52bab3;
+$color--emerald   : #5ece7f;
+$color--sunglo    : #e67478;
+$color--coral     : #ff784f;
+$color--majesty   : #9279c3;
+$color--scooter   : #39add1;
 
 // Color Usage
 
+$color-primary    : $color--fountain;
+$color-secondary  : $color--scooter;
+$color-accent     : $color--emerald;
+$color-shadow     : rbga($color--black, 0.2);
+
 // Text
+
+$base__font-size  : 16px;
+$base__line       : 24px;
